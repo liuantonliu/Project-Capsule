@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #EC7263;
+  --clr-dark: rgb(39, 39, 39);
+  --clr-neutral: rgb(184, 184, 184);
+  --clr-light: rgb(245,245,245);
+}
+
+body {
+  background-color: var(--clr-light);
+}
+
+.button {
+  position: absolute;
+  background-color: #f14dd6;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 70px 70px;
+  border-radius: 15px;
+  color: var(--clr-light);
+}
+
+.top {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  margin: 20px 0;
+}
+
+.top div {
+  display: inline-block;
+}
+
+.top div .name {
+  font-size: 50px;
+  margin: 20px;
+  color: var(--clr-dark);
+  font-weight: 500;
+}
+
+.profile {
+  position: absolute;
+  right: 0;
+  -webkit-transform: translate(-50px, 40px);
+          transform: translate(-50px, 40px);
+  margin: 20px 0;
+}
+
+.profile div {
+  font-size: 30px;
+  padding: 30px;
+  color: var(--clr-dark);
+  font-weight: 500;
+}
+
+.bank {
+  padding-top: 150px;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  background-color: #64395b;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #ebebeb;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.title {
+  background-color: var(--clr-light);
+  font-size: 40px;
+  padding: 10px 80px;
+}
+
+#generatebtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/*# sourceMappingURL=interface.css.map */
